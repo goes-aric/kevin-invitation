@@ -46,8 +46,8 @@ body {
 }
 .fade-exit {
     opacity: 1;
-    transform: translateY(-20px); /* Move the modal up a bit when fading out */
-    transition: opacity 1s ease, transform 1s ease; /* Ensure smooth transition */
+    transform: translateY(-20px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 .fade-exit-active {
     opacity: 0;
